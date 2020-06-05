@@ -1,0 +1,32 @@
+{
+  "name": "git-project",
+  "version": "1.0.0",
+  "description": "learning git and npm",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pranav345/coursera-test.git"
+  },
+  "author": "pranav mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranav345/coursera-test/issues"
+  },
+  "homepage": "https://github.com/pranav345/coursera-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "react-popper": "^2.2.3",
+    "reactstrap": "^8.4.1"
+  }
+}
